@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #87CEEB; 
+    color: #333; 
+}
+
+header {
+    background: #87CEEB;
+    color: #fff; 
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+
+nav {
+    background:#B3CEE5; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #fff; 
+    text-decoration: none;
+    padding: 15px 20px; 
+    display: inline-block; 
+}
+
+nav ul li a:hover {
+    background-color: #555; 
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px; 
+    background-color: #B0E0E6; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+
+.project {
+    border: 1px solid #ddd; 
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px; 
+}
+
+.project h3 {
+    margin-top: 0; 
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #B3CEE5; 
+    color: #fff; 
+}
+
+
+form label {
+    font-weight: bold;
+}
+
+form input,
+form textarea,
+form button {
+    width: calc(100% - 20px); 
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+form input,
+form textarea {
+    border-radius: 5px; 
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #333; 
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+form button:hover {
+    background-color: #555; 
+}
+
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block; 
+        margin-bottom: 10px;
+        text-align: center;
+        width: auto;
+        padding-left :10 px
+       
+}
+
+
